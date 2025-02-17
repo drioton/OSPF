@@ -1,5 +1,5 @@
 **OSPF**
-
+![OSPF]images/OSPF.png
 
 **PC1**
 ```
