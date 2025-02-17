@@ -180,3 +180,18 @@ Neighbor ID     Pri   State           Dead Time   Address         Interface
 1.1.1.1           1   FULL/DR         00:00:34    10.0.0.1        GigabitEthernet0/0
 ```
 
+**PC1**
+```C:\>ping 172.16.0.2
+
+Pinging 172.16.0.2 with 32 bytes of data:
+
+Reply from 172.16.0.2: bytes=32 time<1ms TTL=126
+Reply from 172.16.0.2: bytes=32 time<1ms TTL=126
+Reply from 172.16.0.2: bytes=32 time<1ms TTL=126
+Reply from 172.16.0.2: bytes=32 time=6ms TTL=126
+
+Ping statistics for 172.16.0.2:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 6ms, Average = 1ms
+```
