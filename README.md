@@ -86,7 +86,7 @@ router ospf 1 starts an OSPF process, and the number (1) is just a local referen
 👉 **Fazit:** OSPF ist ideal für große Unternehmensnetzwerke aufgrund seiner hierarchischen Struktur und schnellen Konvergenz. RIP ist veraltet und nur für sehr kleine Netzwerke geeignet. EIGRP ist eine starke Alternative, aber Cisco-proprietär. BGP ist das Standardprotokoll für Internet-Routing.
 
 ---
-Wichtige Merkmale von OSPF:
+**Wichtige Merkmale von OSPF:**
 
 Hierarchische Struktur mit Bereichen (z. B. Backbone-Bereich 0).
 Verwendet die Metrik „Kosten“, basierend auf der Bandbreite für die Pfadauswahl.
@@ -134,6 +134,9 @@ Router(config)# router ospf 1
 
 
 
+
+
+**Configuration**
 
 
 **PC1**
